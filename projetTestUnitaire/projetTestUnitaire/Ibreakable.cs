@@ -8,9 +8,9 @@ namespace projetTestUnitaire
 {
     public interface Ibreakable
     {
-        int LifePoint();
+        int RecupLifePoint();
 
-
+        void verifVivant();
 
     }
 }
