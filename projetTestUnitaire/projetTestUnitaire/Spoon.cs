@@ -8,13 +8,9 @@ namespace projetTestUnitaire
 {
     public class Spoon : Ibreakable
     {
-        
-
         public int RecupLifePoint()
         {
-            int life = https://dev18504.servicenow.com/api/20557/catapulte/getlife?Name=g4s ;
-            return life;
-
+            throw new NotImplementedException();
         }
 
         public void verifVivant()
