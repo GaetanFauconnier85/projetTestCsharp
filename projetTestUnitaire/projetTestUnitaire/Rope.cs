@@ -1,14 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace projetTestUnitaire
 {
-    public class Spoon 
+    public class Rope : Ibreakable
     {
+        public void LowerSpoon()
+        {
+            string message = "lowerSpoon";
+            Console.WriteLine(message);
+        }
+
         int pv;
         public void RecupLifePoint()
         {
@@ -27,15 +32,5 @@ namespace projetTestUnitaire
                 return false;
             }
         }
-
-        public void LoadTheRock()
-        {
-            Rock r = new Rock();
-            r.poids = 100;
-            r.taille = 100;
-            string message = "loaded";
-            Console.WriteLine(message);
-        }
-        
     }
 }

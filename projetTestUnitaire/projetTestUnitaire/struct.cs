@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace projetTestUnitaire
 {
-    public interface Ibreakable
+    public struct Rock
     {
-        void RecupLifePoint();
-
-        bool verifVivant();
-
+        public int poids;
+        public int taille;
     }
 }
