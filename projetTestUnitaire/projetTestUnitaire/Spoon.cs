@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 namespace projetTestUnitaire
 {
     public class Spoon 
-    {
-        int pv;
+    {   int pv;
+     
         public void RecupLifePoint()
         {
-            pv = 100;
+             pv = 0;
         }
         public bool verifVivant()
         {

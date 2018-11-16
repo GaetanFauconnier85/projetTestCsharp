@@ -45,6 +45,9 @@
   <ItemGroup>
     <Compile Include="Arm.cs" />
     <Compile Include="Beam.cs" />
+    <Compile Include="BrokenException.cs" />
+    <Compile Include="myExtension.cs" />
+    <Compile Include="Pairs.cs" />
     <Compile Include="Rope.cs" />
     <Compile Include="struct.cs" />
     <Compile Include="Ibreakable.cs" />

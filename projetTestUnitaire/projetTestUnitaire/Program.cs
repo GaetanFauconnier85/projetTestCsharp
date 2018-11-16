@@ -16,6 +16,30 @@ namespace projetTestUnitaire
             Catapulte c = new Catapulte();
             c.CommencerManip();
             Console.Read();
+            
+            
+            /*
+            Pairs<string, int> p = new Pairs<string, int>(Console.ReadLine(), Convert.ToInt32(Console.ReadLine()));
+
+            for (int i = 0; i < 3; i++)
+            {
+                p.piece.Add(Console.ReadLine());
+                p.pointVie.Add(Convert.ToInt32(Console.ReadLine()));
+            }
+            
+            
+            p.ToString();*/
+
+
+            /*int a = 9.mult3();
+            Console.Write(a);
+
+            int ba = "ett dhfhd efehe".count();
+            Console.Write(ba);*/
+
+            Console.Read();
+                   
+
         }
     }
 }
