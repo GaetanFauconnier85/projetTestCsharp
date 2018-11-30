@@ -13,12 +13,16 @@ namespace projetTestUnitaire
     {
         static void Main(string[] args)
         {
-            Catapulte c = new Catapulte();
+
+            Degat deg = new Degat();
+            deg.dg();
+
+            /*Catapulte c = new Catapulte();
             c.CommencerManip();
             Console.Read();
             
             
-            /*
+            
             Pairs<string, int> p = new Pairs<string, int>(Console.ReadLine(), Convert.ToInt32(Console.ReadLine()));
 
             for (int i = 0; i < 3; i++)
