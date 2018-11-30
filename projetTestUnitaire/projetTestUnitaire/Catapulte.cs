@@ -23,7 +23,7 @@ namespace projetTestUnitaire
             }
             else
             {
-                throw new BrokenException("spoon");
+                //throw new BrokenException("spoon");
                 Console.WriteLine("la cuillère est cassé !");
             }
             if (b.verifVivant() == true)

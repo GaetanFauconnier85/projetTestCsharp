@@ -17,7 +17,7 @@ namespace projetTestUnitaire
             Degat deg = new Degat();
             deg.dg();
 
-            /*Catapulte c = new Catapulte();
+            Catapulte c = new Catapulte();
             c.CommencerManip();
             Console.Read();
             
@@ -32,7 +32,7 @@ namespace projetTestUnitaire
             }
             
             
-            p.ToString();*/
+            p.ToString();
 
 
             /*int a = 9.mult3();

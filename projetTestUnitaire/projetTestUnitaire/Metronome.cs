@@ -8,6 +8,6 @@ namespace projetTestUnitaire
 {
     public class Metronome : System.EventArgs
     {
-        public int n { get; set; }9
+        public int n { get; set; }
     }
 }
